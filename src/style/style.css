@@ -1,0 +1,117 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+}
+.main, .header, .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head-img{
+    margin: 50px 0;
+}
+.head-menu{
+    width: 100%;
+}
+.head-menu ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.head-menu ul li{
+    list-style: none;
+    
+}
+.head-menu ul li a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #8C8A8A;
+    text-decoration: none;
+}
+.main{
+    margin-bottom: 30px;
+}
+.block-text{
+    display: flex;
+    justify-content: space-between;
+}
+.block-img{
+    margin: 48px 0;
+}
+.block-left, .block-right{
+    padding: 50px 40px;
+    background: #F0F0F0;
+}
+
+.block-left{
+    max-width: 730px;
+    width: 100%;
+}
+.block-main p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+}
+.block-right{
+    max-width: 350px;
+    width: 100%;
+}
+.block-text-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4581B7;
+    margin-bottom: 25px;
+}
+.block-text-tel{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.footer-content{
+    display: flex;
+    width: 100%;
+    background: #F0F0F0;
+    padding: 15px 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-right p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #808080;
+
+}
+.footer-right a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #808080;
+}
