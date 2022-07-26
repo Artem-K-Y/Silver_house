@@ -6,8 +6,12 @@
     box-sizing: border-box;
     
 }
+:root {
+    --RB: "Roboto-Bold", sans__serif;
+    --RR: "Roboto-Regular", sans__serif;
+  }
 body{
-    font-family: 'Roboto';
+    font-family: var(--RR);
     font-style: normal;
 }
 .main, .header, .footer{
@@ -39,7 +43,7 @@ body{
     
 }
 .head-menu ul li a{
-    font-family: 'Roboto';
+    font-family: var(--RR);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -68,7 +72,7 @@ body{
     width: 100%;
 }
 .block-main p{
-    font-family: 'Roboto';
+    font-family: var(--RR);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -80,6 +84,7 @@ body{
     width: 100%;
 }
 .block-text-title{
+    font-family: var(--RB);
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
@@ -99,7 +104,7 @@ body{
     justify-content: space-between;
 }
 .footer-right p {
-    font-family: 'Roboto';
+    font-family: var(--RR);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -108,7 +113,7 @@ body{
 
 }
 .footer-right a{
-    font-family: 'Roboto';
+    font-family:  var(--RB);
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
